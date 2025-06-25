@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <TesteComponent msg="Aprendendo Vue.js"/>
+  <VideoSection />
+  <NewsSection :newsList="newsList" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TesteComponent from './components/teste.vue'
+import VideoSection from './components/VideoSection.vue'
+import NewsSection from './components/NewsSection.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TesteComponent,
+    VideoSection,
+    NewsSection
+
   }
 }
 </script>
@@ -20,7 +26,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  margin: 0;
+  padding: 0;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
