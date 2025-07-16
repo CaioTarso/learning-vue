@@ -1,6 +1,7 @@
 <template>
     <header>
         <h1>Portal Basquete</h1>
+        <WeatherSection />
         <ul>
             <li><a href="https://www.espn.com.br/nba/calendario">Próximos jogos</a></li>
             <li><a href="https://www.youtube.com/nbabrasil">Vídeos</a></li>
@@ -15,6 +16,9 @@ export default {
 }
 </script>
 
+<script setup>
+import WeatherSection from './WeatherSection.vue';
+</script>
 <style>
 
 *{
