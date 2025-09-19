@@ -1,6 +1,6 @@
 <template>
     <header>
-        <h1>Portal Basquete</h1>
+        <h1>Portal Hoopers</h1>
         <WeatherSection />
         <ul>
             <li><a href="https://www.espn.com.br/nba/calendario">Próximos jogos</a></li>
